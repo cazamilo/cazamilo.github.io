@@ -1,0 +1,62 @@
+/* estilos generales */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav li {
+    line-height: 3rem;
+    position: relative;
+}
+nav li ul {
+    position: absolute;
+}
+nav a {
+    color: #ddd;
+    display: block;
+    padding: 0 2.5em;
+    text-decoration: none;
+    transition: 0.4s;
+}
+nav a:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+/*-----------------------------------------------------*/
+/*Primer Nivel*/
+.menu {
+    background: rgb(9, 187, 219);
+    display: table;
+    width: 100%;
+}
+.menu > li {
+    float: left;
+}
+
+nav li li {
+    background: #222;
+    max-height: 0;
+    overflow: hidden;
+    transition: all .4s;
+    width: 200px;
+}
+nav li:hover > ul > li {
+    max-height: 1000px;
+    overflow: visible;
+}
+.menu > li > ul {
+    top: 100%;
+}
+/*Tercer Nivel*/
+.menu ul ul {
+    left: 100%;
+    top: 0;
+}
+/*-----------------------------------------------------------*/
+.tablaGame{
+    background: yellow;
+    color: blue;
+    align-self: center;
+    text-align: center;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+}

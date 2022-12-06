@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    margin-top: auto;
+    padding: 0px;
+    font-family: vConsolas;
+    font-size: 110%;
+          
+}
+table{
+    font-size: auto;
+}
+
+body{
+    background-image:url(https://i.pinimg.com/736x/8d/33/85/8d33851073ff7f3f399f0d7fcc2bf9f3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+nav{
+    margin: auto;
+    margin-top: 40px; 
+    width: 1100px;
+              
+}
+div{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;    
+    background-color: none;   /* color titulo*/
+   
+    font: color="blue";
+}
+#uno{
+    background-color:rgb(81, 171, 235) ;    
+       
+}
+#dos{
+    background-color:rgb(21, 40, 54) ;    
+   
+}
+#tres{
+    background-color:rgb(21, 40, 54) ;    
+   
+}
+#cuatro{
+    background-color:rgb(21, 40, 54) ;    
+    
+}
+#cinco{
+    background-color:rgb(21, 40, 54) ;    
+   
+}
+#seis{
+    background-color:rgb(21, 40, 54) ;    
+   
+}
+
+.contenedorMenu {    
+    display:block;
+    width: 200px;
+    height: 250px;
+    float: left;
+    transition: padding-top .4s;    
+}
+.contenedorMenu:hover{
+    height: 250px;
+}
+.contenedorMenu:hover .texto{
+    padding-top: 30px;
+    opacity: 1;
+    
+}
+.contenedorMenu:hover .icon{
+    box-shadow: 10px 0px 0px 0px rgba(14, 99, 173, 0.6)
+}
+.iconP{   
+    display: 50px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    width: 50px;  
+    border-radius: 20%;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0px 0px 5px 10px rgb(134, 229, 11);
+    transition: box-shadow 0.4s;
+}
+.texto{
+    font-size: 1em;
+    color: rgb(218, 236, 18);
+    text-align: center;
+    padding-top: 0.4s;
+    opacity: 0.6;
+}
+.titulo {
+    color: rgb(255, 230, 0);
+    font-size: 151px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+/* -------------------------------pie pag----------------------------------*/
+p{
+    color: white;
+    text-align: center;
+}
